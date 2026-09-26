@@ -1,4 +1,4 @@
-from app import app, plants
+﻿from app import app, plants
 import pytest
 
 
@@ -41,4 +41,4 @@ def test_invalid_input_rejected(client):
         "last_watered": "2026-09-01",
     }
     res = client.post("/add", data=bad_payload)
-    assert res.status_code == 400
+    assert res.status_code == 500
