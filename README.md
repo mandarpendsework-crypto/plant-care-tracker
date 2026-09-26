@@ -12,3 +12,4 @@ A dynamic web application built with Flask and delivered via an automated CI/CD 
 - **Continuous Integration**: Triggers on push/PR to \main\. Runs Flake8 linter and Pytest test suite.
 - **Build**: Builds Docker container and executes a smoke test verifying the \/health\ route.
 - **Continuous Deployment**: Triggers a webhook deployment to Render upon successful merge/push to \main\.
+## Architecture Flowgit add README.md
